@@ -1,0 +1,139 @@
+/*AQUI IRÁ LO COMÚN A TODOS LOS .HTML*/
+/*clase boton: 
+inline-block. 
+background.
+color a la fuente.
+padding.
+border (opcional).
+text-decoration: none.
+text-align: center.
+cursor: pointer.
+*/
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Shalimar&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+    color: black;
+    font-family: 'Pacifico', cursive;
+}
+ul{
+    list-style-type: none;
+}
+.nav-menu ul, .nav-menu li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 8px;
+}
+li a{
+    text-decoration: none;
+    color: aliceblue;
+    display: inline-block;
+    justify-content: space-between;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: darkgreen;
+}
+.garantias{    
+    display: flex;
+    padding: 10px 10px 10px 10px;
+    justify-content: space-between;        
+}
+footer{
+    background-color: darkgreen;
+    color: white;
+    flex-direction: column;
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-newsletter-social-media-icons{
+    display: flex;
+}
+.footer-newsletter{
+    display: flex;
+    flex-direction: column;
+}
+.button{
+    display: inline-block;
+    background-color: green;
+    color: white;
+    border: 2px solid black;
+    border-radius: 16px;
+    text-decoration: none;
+    text-align: center;
+    padding: 16px 24px;
+    cursor: pointer;
+}
+.button.carrito{
+    position: relative;
+}
+.button.carrito .bola{
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    width: 24px;
+    height: 24px;
+    background: black;
+    color: white;
+    border-radius: 50%;
+}
+.button.carrito .bola span{
+    position: absolute;
+    display: block;
+    text-align: center;
+    width: 100%;
+    top: 3px;
+}
+
+.main-articles{
+    display: flex;
+    gap: 40px;
+    align-content: space-between;
+    justify-content: center;
+}
+.article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    border: 2px solid darkgreen;
+    border-radius: 12px 12px 12px 12px;
+}
+.article-figure{
+    display: flex;
+}
+.article-title{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.article-buttons{
+    display: flex;
+    gap: 20px;
+}
+
+
+
+
+
+
+

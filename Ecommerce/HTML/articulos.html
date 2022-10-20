@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Artículos</title>
+    <link rel="stylesheet" href="/Ecommerce/CSS/articulos.css">
+    <link rel="stylesheet" href="/fontawesome-free-6.2.0-web/css/all.min.css">
+  </head>
+  <body>
+    <header>
+      <img src="/Imagenes/logoRaquetas.jpg" width="50" height="50">
+      <img src="/Imagenes/logoTiendaTenis.png" width="500" height="50">
+      <input
+        type="search"
+        width="500"
+        height="80"
+        placeholder="Buscar producto...."
+      />
+      <button>Carrito</button>
+    </header>
+
+    <navbar class="menu">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="miProducto.html">Mi producto</a></li>
+        <li><a href="sobreNosotros.html">Sobre nosotros</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="ofertas.html">Ofertas</a></li>
+      </ul>
+      <ul>
+        <li><a href="miPedido.html">Mis pedidos</a></li>
+        <li><a href="logout.html">Logout</a></li>
+      </ul>
+    </navbar>
+    <h1>Artículos</h1>
+
+    <!--Que el app contenga la sección de articulos con todas su tarjetas correspondientes-->
+
+    <main>
+      <section>
+        <h2>Raquetas</h2>
+        <p>Consigue ahora las mejores ofertas en raquetas</p>
+        <button type="button">Ver todos</button>
+        <br /><br />
+      </section>
+      <section>        
+          <article>
+            <fieldset>
+              <legend>Características</legend>
+              <div>
+                <img src="/Imagenes/raqueta1.jpg" width="300" height="300" align="right">
+              </div>
+              <div>
+                    <p>Marca: Wilson</p>
+                    <p>Modelo: Clash 100S</p>
+                    <p>Balance: Bajo</p>
+                    <p>Peso: 295 gr</p>
+                    <p class="euro">Precio: 149,99 <i class="fa-solid fa-euro-sign"></i></p>
+              </div>
+              <div>
+                <!--Rating de 5 estrellas-->
+                <p class="estrellas">★★★★★</p>
+              </div>
+              
+              <p>Consigue ahora los mejores productos en nuestra web</p>
+              <div>
+                  <button type="button">Añadir al carrito</button>            
+                 <!--Que dandole al botón "ver" me llevas a la sección de detalles del productos-->
+                  <a href="detalles.html">
+                      <input type="button" value="Ver">
+                  </a>
+              </div>
+          </fieldset>
+        </article>    
+        <article>
+          <fieldset>
+            <legend>Características</legend>
+            <img src="/Imagenes/raqueta2.jpg" width="300" height="300" align="right">
+            <p>Marca: Babolat</p>
+            <p>Modelo: Pure Aero Team</p>
+            <p>Balance: Medio</p>
+            <p>Peso: 285 gr</p>
+            <p>Precio: 169,99 <i class="fa-solid fa-euro-sign"></i></p>
+            <!--Rating de 5 estrellas-->
+            <p>★★★★★</p>
+            <p>Consigue ahora los mejores productos en nuestra web</p>
+            <button type="button">Añadir al carrito</button>
+            <!--Que dandole al botón "ver" me llevas a la sección de detalles del productos-->
+            <a href="detalles.html">
+                <input type="button" value="Ver">
+            </a>
+          </fieldset>
+        </article>        
+        <article>
+          <fieldset>
+            <legend>Características</legend>
+            <img src="/Imagenes/raqueta3.jpg" width="300" height="300" align="right">
+            <p>Marca: Dunlop</p>
+            <p>Modelo: SX300</p>
+            <p>Balance: Medio</p>
+            <p>Peso: 285 gr</p>
+            <p>Precio: 159,99 <i class="fa-solid fa-euro-sign"></i></p>
+            <!--Rating de 5 estrellas-->
+            <p>Consigue ahora los mejores productos en nuestra web</p>
+            <p>★★★★★</p>
+            <button type="button">Añadir al carrito</button>
+            <!--Que dandole al botón "ver" me llevas a la sección de detalles del productos-->
+            <a href="detalles.html">
+                <input type="button" value="Ver">
+            </a>
+          </fieldset>
+        </article>
+      </section>
+    </main>
+
+    <!--Que el app contenga la sección de Testimonios de clientes en el apartado de productos-->
+
+    <h2>Testimonios de clientes</h2>
+    <p>Consigue ahora los mejores productos en nuestra web</p>
+    <button type="submit">Ver todos</button>
+    <br/><br/>
+    <fieldset>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+        perferendis ut hic voluptatum, ipsum maxime excepturi impedit. Nam eius
+        natus nesciunt consequuntur eligendi. Delectus minima doloremque dolores
+        fugit molestiae accusamus.
+      </p>
+      <p>Gandalf Mithrandir</p>
+      <p>★★★</p>
+    </fieldset>
+  </body>
+</html>

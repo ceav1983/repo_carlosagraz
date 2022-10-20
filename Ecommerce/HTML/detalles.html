@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detalles del producto</title>
+  </head>
+  <body>
+    <header>
+      <img src="/Imagenes/logoRaquetas.jpg" width="50" height="50" />
+      <img src="/Imagenes/logoTiendaTenis.png" width="500" height="50" />
+      <input type="search" width="500" height="80" placeholder="Buscar producto...."/>
+      <button>Carrito</button>
+    </header>
+
+    <navbar class="menu">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="miProducto.html">Mi producto</a></li>
+        <li><a href="sobreNosotros.html">Sobre nosotros</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="articulos.html">articulos</a></li>
+        <li><a href="ofertas.html">Ofertas</a></li>
+      </ul>
+      <ul>
+        <li><a href="miPedido.html">Mis pedidos</a></li>
+        <li><a href="logout.html">Logout</a></li>
+      </ul>
+    </navbar>
+    <h1>Detalles del producto</h1>
+    <main>
+      <section>
+        <img src="/Imagenes/raqueta1.jpg" width="350" height="350" align="left"/>
+        <p>Raqueta 1</p>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam
+          omnis autem nesciunt velit voluptate, consequatur minima eum excepturi
+          aspernatur fuga dolorem tempore eaque ullam magni illum mollitia
+          facilis obcaecati voluptatum.
+        </p>
+        <p>Precio: 149,99 €</p>
+        <p>Características:</p>
+        <p>
+          <li>Marca: Wilson</li>
+          <li>Modelo: Clash 100S</li>
+          <li>Balance: Bajo</li>
+          <li>Peso: 295 gr</li>
+          <li>Nivel: Profesional</li>
+          <input type="number" range: min="0" max="100" value="0">          
+          <a href="carrito.html">
+                <input type="button" value="Añadir al carrito">
+          </a>    
+          
+          <label for="radio">
+            <input type="radio" id="radio" name="radio" />Incluye dos años de
+            garantía
+          </label>
+        </p>
+      </section>
+      <!--Que la sección de detalles de producto tenga las opiniones de dicho producto-->
+      <section>
+        <h2>Opiniones destacadas</h2>
+        <p>Otros compradores han dejado sus opiniones acerca del producto</p>
+        <fieldset>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos
+            voluptatum odit tempore labore ipsum quasi sed rerum doloremque,
+            quam omnis, aspernatur neque quod possimus non saepe aliquid quia
+            magnam aut?
+          </p>
+          <p>Gandalf El Gris</p>
+          <p>★★★★★</p>
+
+        </fieldset>
+      </section>
+    </main>
+
+    <br /><br /><br /><br /><br /><br />
+    <footer>
+      <img src="/Imagenes/logoRaquetas.jpg" width="50" height="50" />
+      <img src="/Imagenes/logoTiendaTenis.png" width="500" height="50" />
+      <ul>
+        <li><a href="#">Centro de ayuda</a></li>
+        <li><a href="#">Servicio al consumidor</a></li>
+        <li><a href="#">Escríbeme</a></li>
+        <li><a href="#">Servicio telefónico</a></li>
+      </ul>
+      <ul>
+        <li><a href="/Ecommerce/HTML/politicaPrivacidad.html">Política de privacidad</a></li>
+        <li><a href="#">Condiciones de comprar</a></li>
+        <li><a href="#">Opiniones de clientes</a></li>
+        <li><a href="#">Aviso de privacidad y cookies</a></li>
+      </ul>
+      <div>
+        <section>
+          <h2>Únete a nuestra newsletter</h2>
+          <p>y recibe nuestras ofertas</p>
+          <label for="email">Déjanos tu Email</label>
+          <input type="email" name="email" />
+          <button>Suscribirme</button>
+          <br />
+          <label for="aceptar">
+            <input type="checkbox" name="Aceptar" id="aceptar"/> Acepto la
+            politica de privacidad de esta web
+          </label>
+          <div>
+            <p>Síguenos en redes</p>
+            <img
+              src="/Ecommerce/HTML/media-icon/facebook.png" width="60" height="60"/>
+            <img
+              src="/Ecommerce/HTML/media-icon/insta.png"
+              width="60"
+              height="60"
+            />
+            <img
+              src="/Ecommerce/HTML/media-icon/twitch.png"
+              width="60"
+              height="60"
+            />
+            <img
+              src="/Ecommerce/HTML/media-icon/youtube.png"
+              width="60"
+              height="60"
+            />
+          </div>
+        </section>
+      </div>
+    </footer>
+  </body>
+</html>

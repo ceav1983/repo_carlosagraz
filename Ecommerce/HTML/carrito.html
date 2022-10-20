@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi carrito</title>
+  </head>
+  <body>
+    <!--Que la sección de carrito, tenga un header que contiene el logo, 
+        y los botones de carrito, forma de pago y finalizar pedido-->
+    <header>
+      <img src="/Imagenes/logoRaquetas.jpg" width="50" height="50" />
+      <img src="/Imagenes/logoTiendaTenis.png" width="500" height="50" />
+      <button>Carrito</button>
+      <button>Forma de pago</button>
+      <button>Finalizar pedido</button>
+    </header>
+
+    <main>
+      <h1>Mi carrito</h1>
+      <a href="/Ecommerce/HTML/articulos.html">
+            <input type="button" value="Seguir comprando"></button>
+      </a>      
+      <section>
+        <article>
+          <img src="/Imagenes/raqueta1.jpg" width="300" height="300">
+          <p>Marca: Wilson</p>
+          <p>Modelo: Clash 100S</p>
+          <p>Balance: Bajo</p>
+          <p>Peso: 295 gr</p>
+          <p>Precio: 149,99 €</p>
+          <input type="number" range: min="0" max="100" value="0">
+          <button type="button">Eliminar del carrito</button>
+        </article>
+        <article>
+          <img src="/Imagenes/raqueta2.jpg" width="300" height="300">
+          <p>Marca: Wilson</p>
+          <p>Modelo: Clash 100S</p>
+          <p>Balance: Bajo</p>
+          <p>Peso: 295 gr</p>
+          <p>Precio: 149,99 €</p>
+          <input type="number" range: min="0" max="100" value="0">
+          <button type="button">Eliminar del carrito</button>
+        </article>
+
+        <article>
+          <img src="/Imagenes/raqueta3.jpg" width="300" height="300">
+          <p>Marca: Wilson</p>
+          <p>Modelo: Clash 100S</p>
+          <p>Balance: Bajo</p>
+          <p>Peso: 295 gr</p>
+          <p>Precio: 149,99 €</p>
+          <input type="number" range: min="0" max="100" value="0">
+          <button type="button">Eliminar del carrito</button>
+        </article>
+      </section>
+      <br/>
+      <fieldset>        
+        <h2>Resumen del pedido</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                quibusdam doloremque voluptatum consectetur maiores saepe. Atque
+                voluptates laudantium consequatur iure tempore perspiciatis totam
+                doloribus accusantium minima eum, quasi quidem iusto.
+            </p>
+            <p>450,99 €</p>
+            <!--Que el botón de proceder al pago te lleve a una nueva sección de forma de pago-->
+            <a href="/Ecommerce/HTML/pago.html"> 
+                <input type="button" value="Proceder al pago"></button>
+            </a>    
+      </fieldset>
+    </main>
+  </body>
+</html>

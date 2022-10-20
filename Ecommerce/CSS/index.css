@@ -1,0 +1,35 @@
+.main-header{
+    margin: 20px 20px 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-header_button{
+    justify-items: right;
+}
+.main-header_find{
+    justify-items: center;
+}
+main{
+    text-align: center;
+    justify-content: space-between;
+}
+.rellena{
+    color: goldenrod;
+}
+.norellena{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

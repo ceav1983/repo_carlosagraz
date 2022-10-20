@@ -1,0 +1,6 @@
+.menu li {
+    list-style: none;
+    display: inline-block;
+    text-align: left;
+
+}

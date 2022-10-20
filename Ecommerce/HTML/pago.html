@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pago</title>
+</head>
+<body>
+    <header>
+        <img src="/Imagenes/logoRaquetas.jpg" width="50" height="50" />
+        <img src="/Imagenes/logoTiendaTenis.png" width="500" height="50" />
+        <button>Carrito</button>
+        <button>Forma de pago</button>
+        <button>Finalizar pedido</button>
+      </header>
+    <main>
+        <h1>Forma de pago</h1>
+
+            <p>Mis tarjetas</p>
+
+            <form name="" action="" method="">
+                <label for="tarjeta1">
+                    <input type="radio" id="tarjeta1" name="tarjeta" value="tarjeta1">Mastercard....6547
+                </label><br/>
+                <label for="tarjeta2">
+                    <input type="radio" id="tarjeta2" name="tarjeta" value="tarjeta2">Mastercard....6672
+                </label><br/>
+                <label for="tarjeta3">
+                    <input type="radio" id="tarjeta3" name="tarjeta" value="tarjeta3">Mastercard....5247
+                </label><br/>
+                <!--Que el botón de pagar con esta tarjeta te lleve a una nueva sección de finalizar pedido-->
+                <a href="/Ecommerce/HTML/finalizarPago.html">
+                    <button type="button">Pagar con esta tarjeta</button>
+                </a>                 
+            </form>
+            
+
+        <form name="añadirTj" action="" method="get">
+            <section>
+                <p>Añadir nueva tarjeta</p>
+                    <input type="text" placeholder="Numero de tarjeta"><br/>
+                    <input type="text" placeholder="Titular de tarjeta"><br/>
+             <!--min="2022-09" acota el dato al año minimo 2022 y mes septiembre-->
+                    <input type="month" name="mes" min="2022-09"><br/>
+                    <input type="text" placeholder="CVV"><br/>
+                    <button type="button">Añadir a mis tarjetas</button><br/>
+            </section>    
+        </form>    
+
+    </main>
+    <footer>
+        <img src="/Imagenes/logoRaquetas.jpg" width="50" height="50">
+        <img src="/Imagenes/logoTiendaTenis.png" width="500" height="50">
+        <ul>
+            <li><a href="#">Centro de ayuda</a></li>
+            <li><a href="#">Servicio al consumidor</a></li>
+            <li><a href="#">Escríbeme</a></li>
+            <li><a href="#">Servicio telefónico</a></li>
+        </ul>
+        <ul>
+            <li><a href="/Ecommerce/HTML/politicaPrivacidad.html">Política de privacidad</a></li>
+            <li><a href="#">Condiciones de comprar</a></li>
+            <li><a href="#">Opiniones de clientes</a></li>
+            <li><a href="#">Aviso de privacidad y cookies</a></li>
+        </ul>
+        <div>
+            <section>
+                <h2>Únete a nuestra newsletter</h2>
+                <p>y recibe nuestras ofertas</p>
+                <label for="email">Déjanos tu Email</label>
+                <input type="email" name="email">
+                <button>Suscribirme</button>
+                <br/>
+                <label for="aceptar">
+                    <input type="checkbox" name="Aceptar" id="aceptar"> Acepto la politica de privacidad de esta web
+                </label>
+                <div>
+                    <p>Síguenos en redes</p>
+                    <img src="/Ecommerce/HTML/media-icon/facebook.png" width="60" height="60">
+                    <img src="/Ecommerce/HTML/media-icon/insta.png" width="60" height="60">
+                    <img src="/Ecommerce/HTML/media-icon/twitch.png" width="60" height="60">
+                    <img src="/Ecommerce/HTML/media-icon/youtube.png" width="60" height="60">
+                </div>                
+            </section>
+        </div>        
+    </footer>   
+</body>
+</html>
